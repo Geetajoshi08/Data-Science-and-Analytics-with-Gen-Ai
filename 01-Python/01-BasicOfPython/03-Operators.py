@@ -20,3 +20,9 @@ print(f"{num1} < {num2} = {num1 < num2}")
 print(f"{num1} > {num2} = {num1 > num2}")
 print(f"{num1} <= {num2} = {num1 <= num2}")
 print(f"{num1} >= {num2} = {num1 >= num2}")
+
+# Logical Operators : and , or , not
+print("Logical Operations are :")
+print(f"{num1} > 10 and {num2} > 10 = {num1 > 10 and num2 > 10}")
+print(f"{num1} > 10 or {num2} > 10 = {num1 > 10 or num2 > 10}")
+print(f"not({num1} > 10) = {not(num1 >  10)}")
