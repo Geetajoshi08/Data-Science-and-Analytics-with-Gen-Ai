@@ -26,3 +26,19 @@ sum = 0
 for i in range(len(b)):
     sum = sum + int(b[i])
 print("Sum is : ",sum)
+
+# Sum of odd and even numbers in a range
+num = int(input("Enter your range : "))
+
+even_sum = 0
+odd_sum = 0
+
+for i in range(1, num + 1):
+    if i % 2 == 0:
+        even_sum += i
+    else:
+        odd_sum += i
+
+print(f"The sum of even numbers is : {even_sum}")
+print(f"The sum of odd numbers is : {odd_sum}")
+
